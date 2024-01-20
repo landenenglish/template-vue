@@ -20,6 +20,7 @@ coverage
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
 .idea
 *.suo
 *.ntvs*
@@ -28,3 +29,13 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+# Lock files
+yarn.lock
+package-lock.json
+.pnpm-lock.yaml
+bun.lockb
+
+# auto generated files
+auto-imports.d.ts
+components.d.ts

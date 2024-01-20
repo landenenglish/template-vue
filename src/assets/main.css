@@ -33,3 +33,26 @@ a,
     padding: 0 2rem;
   }
 }
+
+.tippy-content {
+  background-color: hsla(0, 0%, 0%, 0.8);
+}
+
+pre {
+  background-color: unset;
+  color: hsla(0, 0%, 100%, 0.8);
+}
+
+a:hover {
+  color: unset;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}

@@ -9,5 +9,6 @@
     "paths": {
       "@/*": ["./src/*"]
     }
-  }
+  },
+  "files": ["auto-imports.d.ts", "components.d.ts"]
 }
